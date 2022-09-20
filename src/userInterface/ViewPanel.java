@@ -50,11 +50,11 @@ public class ViewPanel extends javax.swing.JPanel {
         view17.setText(student.getDegree2());
         view18.setText(student.getDegree2Start());
         view19.setText(student.getDegree2End());
-//        ImageIcon img= new ImageIcon((student.getImage()).toString());
-//        Image img1=img.getImage();
-//        Image img2=img1.getScaledInstance(300,200,Image.SCALE_SMOOTH);
-//        ImageIcon icon= new ImageIcon(img2); 
-        view20.setIcon(new ImageIcon((student.getImage()).toString()));
+       ImageIcon img= new ImageIcon((student.getImage()).toString());
+       Image img1=img.getImage();
+       Image img2=img1.getScaledInstance(300,200,Image.SCALE_SMOOTH);
+       ImageIcon icon= new ImageIcon(img2); 
+        view20.setIcon(icon);
        
     }
     /**
